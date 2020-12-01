@@ -15,7 +15,7 @@ scikit - done
 scipy - done
 threadpoolctl - done
 google - done
-wikipedia -
+wikipedia - done
 
 
 *Discord libraries
