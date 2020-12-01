@@ -1,0 +1,60 @@
+Python 3.8.6 (Stable)
+
+
+*Basic Libraries
+
+pyautogui -done
+pynput -done
+matplotlib -done
+pandas -done
+numpy -done
+speedtest -done
+scrapy -done (need specific Twisted wheel ver. downloaded,
+ {https://www.lfd.uci.edu/~gohlke/pythonlibs/#twisted})
+scikit - done
+scipy - done
+threadpoolctl - done
+google - done
+wikipedia -
+
+
+*Discord libraries
+
+Discord.py -done
+discord.py[voice] -done
+
+*Web scraping libraries
+
+tweepy -done
+beautifulsoup4 -done
+
+
+*media player libraries
+
+ffmpeg -done
+youtube-dl -done
+spotdl - done
+
+
+*chatbot libraries
+
+ChatterBot - done (ver. 1.0.4, not latest)
+ChatterBot_corpus - done 
+sqlalchemy - done (ver. 1.2 is compatible for ChatterBot 1.0.4, not latest)
+
+Natural language processing libraries
+
+nltk - done
+
+
+Python 3.9 (latest)
+
+pyautogui -unavailable
+pynput -unavailable
+matplotlib -unavailable
+pandas -unavailable
+numpy 
+speedtest 
+scrapy -unavailable
+
+Discord.py -unavailable

@@ -1,0 +1,14 @@
+
+Use Spotify API for better music streaming
+
+Show list of queued Songs.
+
+Expand and specialize more in development of Genuine chat bot code.
+
+Better chat bot list of dialogue
+
+Compress code into Cogs.
+
+input functions through reactions.
+
+Leveling system.
