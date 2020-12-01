@@ -1,0 +1,32 @@
+Scikit Machine Learning
+https://www.pluralsight.com/guides/scikit-machine-learning/
+
+Linear, Lasso, and Ridge Regression with scikit-learn
+https://www.pluralsight.com/guides/linear-lasso-ridge-regression-scikit-learn/
+
+Non-Linear Regression Trees with scikit-learn
+https://www.pluralsight.com/guides/non-linear-regression-trees-scikit-learn/
+
+Machine Learning with Neural Networks Using scikit-learn
+https://www.pluralsight.com/guides/machine-learning-neural-networks-scikit-learn/
+
+Validating Machine Learning Models with scikit-learn
+https://www.pluralsight.com/guides/validating-machine-learning-models-scikit-learn/
+
+Ensemble Modeling with scikit-learn
+https://www.pluralsight.com/guides/ensemble-modeling-scikit-learn/
+
+Preparing Data for Modeling with scikit-learn
+https://www.pluralsight.com/guides/preparing-data-modeling-scikit-learn/
+
+Data Science Beginners
+https://www.pluralsight.com/guides/data-science-beginners/
+
+Interpreting Data Using Descriptive Statistics with Python
+https://www.pluralsight.com/guides/interpreting-data-using-descriptive-statistics-python/
+
+Importing Data in Python
+https://www.pluralsight.com/guides/importing-data-in-python/
+
+Finding Relationships in Data with Python
+https://www.pluralsight.com/guides/finding-relationships-data-with-python/

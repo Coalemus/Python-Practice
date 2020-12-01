@@ -1,0 +1,25 @@
+Pluralsight NLTK Resources
+
+Natural Language Processing - Machine Learning with Text Data
+https://www.pluralsight.com/guides/nlp-machine-learning-text-data/
+
+Natural Language Processing – Text Parsing
+https://www.pluralsight.com/guides/text-parsing/
+
+Natural Language Processing - Topic Identification
+https://www.pluralsight.com/guides/topic-identification-nlp/
+
+​Visualizing Text Data Using a Word Cloud
+https://www.pluralsight.com/guides/natural-language-processing-visualizing-text-data-using-word-cloud/
+
+​Named Entity Recognition (NER)
+https://www.pluralsight.com/guides/natural-language-processing-named-entity-recognition/
+
+Building Features from Text Data
+https://www.pluralsight.com/guides/building-features-from-text-data/
+
+Natural Language Processing – ​Extracting Sentiment from the Text Data
+https://www.pluralsight.com/guides/natural-language-processing-extracting-sentiment-from-text-data/
+
+
+

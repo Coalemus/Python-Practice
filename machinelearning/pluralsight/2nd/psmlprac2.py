@@ -14,3 +14,19 @@ from sklearn.metrics import mean_squared_error
 from sklearn.model_selection import train_test_split
 from math import sqrt
 
+df = pd.read_csv('regressionexample.csv')
+print(df.shape)
+df.describe()
+
+
+target_column = ['unemploy']
+predictors = list(set(list(df.columns))-set(target_column))
+df[predictors] = df[predictors]/df[predictors].max()
+df.describe()
+
+
+X = df[predictors].values
+Y = df[target_column].values
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.30, random.state=40)
+print(X_train.shape); print(X_test.shape)
