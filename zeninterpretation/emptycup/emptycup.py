@@ -36,6 +36,10 @@
 # definition.
 
 
+##TODO: Use string format() method for easier applicaton of concept.
+# To choose between file modification.
+
+
 ##TODO: Apply nonlocal modifier.
 ## Just a reminder, not mandatory.
 
@@ -71,6 +75,9 @@
 ## Third alternative method with similarity to the second,
 # use the discord bot code for inspiration on manipulating text files.
 
+
+##TODO: Compress code into shorthand.
+# Do this for clean-up when hopefully all of this works.
 
 ## Tinker with code occasionally with new knowledge to implement,
 #  Don't think that this is a one-time project.

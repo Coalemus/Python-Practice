@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 from sklearn import model_selection
-from sklearn.linear_model import Linear_Regression
+from sklearn.linear_model import LinearRegression
 from sklearn.linear_model import Ridge
 from sklearn.linear_model import Lasso
 from sklearn.linear_model import ElasticNet
@@ -28,5 +28,5 @@ df.describe()
 X = df[predictors].values
 Y = df[target_column].values
 
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.30, random.state=40)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size==0.30, random.state==40)
 print(X_train.shape); print(X_test.shape)
