@@ -40,6 +40,11 @@
 # To choose between file modification.
 
 
+##TODO: Ponder if using a for loop for appending on a new 'result'
+# TODO:  list is better than other methods.
+# Still reading up on it.
+
+
 ##TODO: Apply nonlocal modifier.
 ## Just a reminder, not mandatory.
 
