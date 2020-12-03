@@ -1,5 +1,7 @@
 Pluralsight NLTK Resources
 
+# postponed, Datasets not available, not subscribed to pluralsight course.
+
 Natural Language Processing - Machine Learning with Text Data
 https://www.pluralsight.com/guides/nlp-machine-learning-text-data/
 

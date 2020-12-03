@@ -3,13 +3,13 @@ Python 3.8.6 (Stable)
 
 *Basic Libraries
 
-pyautogui -done
-pynput -done
-matplotlib -done
-pandas -done
-numpy -done
-speedtest -done
-scrapy -done (need specific Twisted wheel ver. downloaded,
+pyautogui - done
+pynput - done
+matplotlib - done
+pandas - done
+numpy - done
+speedtest - done
+scrapy - done (need specific Twisted wheel ver. downloaded,
  {https://www.lfd.uci.edu/~gohlke/pythonlibs/#twisted})
 scikit - done
 scipy - done
@@ -21,14 +21,14 @@ wikipedia - done
 
 *Discord libraries
 
-Discord.py -done
-discord.py[voice] -done
+Discord.py - done
+discord.py[voice] - done
 
 *Web scraping libraries
 
-tweepy -done
-beautifulsoup4 -done
-googleimagedownloader -
+tweepy - done
+beautifulsoup4 - done
+googleimagedownloader - done
 
 *media player libraries
 
@@ -50,12 +50,12 @@ nltk - done
 
 Python 3.9 (latest)
 
-pyautogui -unavailable
-pynput -unavailable
-matplotlib -unavailable
-pandas -unavailable
+pyautogui - unavailable
+pynput - unavailable
+matplotlib - unavailable
+pandas - unavailable
 numpy 
 speedtest 
-scrapy -unavailable
+scrapy - unavailable
 
-Discord.py -unavailable
+Discord.py - unavailable

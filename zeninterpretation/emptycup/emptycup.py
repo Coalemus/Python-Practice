@@ -49,6 +49,11 @@
 ## Just a reminder, not mandatory.
 
 
+##TODO: Use Getter and setter property method decorators, also just
+# TODO:  property in general for the ClassObjects.
+# To do in tandem with other todos.
+
+
 ##TODO: Swap the if statements that are incorrect into while loops.
 ## Cannot find anymore incorrect statements.
 
@@ -57,6 +62,11 @@
 # TODO:  as str in order for them to be easily iterable.
 ## Waiting for the global variables to be defined more clearly.
  
+
+##TODO: Use regex for defining the functions of adding or removing
+# TODO:  water.
+# To be done in with other todos.
+
 
 ##TODO: maybe tinker with the global variables inside of the functions
 # TODO:  and set some into a local variable.

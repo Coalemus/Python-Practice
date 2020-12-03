@@ -14,7 +14,7 @@ from sklearn.metrics import mean_squared_error
 from sklearn.model_selection import train_test_split
 from math import sqrt
 
-df = pd.read_csv('regressionexample.csv')
+df = pd.read_csv('regressionexample.csv', error_bad_lines=False)
 print(df.shape)
 df.describe()
 
