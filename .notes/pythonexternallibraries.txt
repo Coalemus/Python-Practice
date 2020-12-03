@@ -5,17 +5,22 @@ Python 3.8.6 (Stable)
 
 pyautogui - done
 pynput - done
-matplotlib - done
-pandas - done
-numpy - done
-speedtest - done
-scrapy - done (need specific Twisted wheel ver. downloaded,
- {https://www.lfd.uci.edu/~gohlke/pythonlibs/#twisted})
-scikit - done
+
+
 scipy - done
+    scikit - done
+    matplotlib - done
+        seaborn - done
+    pandas - done
+    numpy - done
+    scrapy - done (need specific Twisted wheel ver. downloaded,
+                    {https://www.lfd.uci.edu/~gohlke/pythonlibs/#twisted})
+
 threadpoolctl - done
+
 google - done
 wikipedia - done
+xgboost - done
 
 
 
