@@ -20,6 +20,10 @@
 ## mandatory for properly utilizing the defined classes.
 
 
+##TODO: Utilize function parameter *args.
+# TO do with other todos. 
+
+
 ##TODO: Apply Dunder method to the classes.
 ## Still reading up on it.
 
@@ -92,7 +96,7 @@
 
 
 ##TODO: Compress code into shorthand.
-# Do this for clean-up when hopefully all of this works.
+# Do this for clean-up/practice when hopefully all of this works.
 
 ## Tinker with code occasionally with new knowledge to implement,
 #  Don't think that this is a one-time project.
@@ -100,69 +104,70 @@
 
 ### Variables
 
-water = ("Water is in bowl", # water(0)
-            "Water is not in bowl", # water(1)
-            "Water cannot be added into the bowl", # water(2)
-            "The bowl is already empty") # water(3)
+water = {"Water is in bowl":"0", # water(0)
+            "Water is not in bowl":"1", # water(1)
+            "Water cannot be added into the bowl":"2", # water(2)
+            "The bowl is already empty":"3"} # water(3)
    
 
-water_level = ("The bowl is full of water", # waterlevel(0)
-                "The bowl is empty") # waterlevel(1)
-
-'''
-
-iter(water)
-iter(water_level)
- 
-## Can explicitly express these here and make it implicit in for loops
-#   inside a func def BUT
-#   it makes the variable used for the loop sends this error:
-#   var is not callable
-
-'''
+water_level = {"The bowl is full of water":"0", # waterlevel(0)
+                "The bowl is empty":"1"} # waterlevel(1)
 
 ### Classes
 
-class BowlObject:
-    def __init__(self, state):
-        global water
-        global water_level
-        # nonlocal 
-        self.state = water_level
-        for water in iter(water_level):
-            if water == (1) and water_level == (1):
-                print("full")
-            elif water == (0) and water_level == (0):
-                print("Empty")
+#class BowlObject:
+#    def __init__(self, capacity):
+#        global water
+#        global water_level
+
+#        # TODO: apply nonlocal.
+#        self.capacity = water_level
 
     # def __iter__(self):
+#        global water
+#        global water_level
+
+#        for water in iter(water_level):
+#            if water == (1) and water_level == (1):
+#                print("full")
+#            elif water == (0) and water_level == (0):
+#                print("Empty")
+#            else:
+#                break
     
-bowl_class = BowlObject(water_level)
+#bowl_class = BowlObject()
 
 
-class WaterObject:
-    def __init__(self, state):
-        global water
-        global water_level
-        # nonlocal 
-        self.state = water
-        if water == ():
-            self.state = "not poured"
-        elif water == (1):
-            self.state = "poured"
+#class WaterObject:
+#   def __init__(self, location):
+#       global water
+#       global water_level
+#       # TODO: Apply nonlocal.
 
-    # def __iter__(self):
+#       self.location = water
+        
+
+#    def __iter__(self):
+#        global water
+#        global water_level
+
+#        for water in water(i):
+#            if water == water(1):
+#               self.location = "outside the bowl"
+#           elif water == water(0) or water == water(2):
+#               self.location = "inside the bowl"
     
-    def overflow(self, state):
-        global water
-        global water_level
-        # nonlocal 
-        self.state = water 
-        if water >= (2):
-            print("The bowl is overflowing with water \
-                    and cannot contain more water.")
+#    def overflow(self, state):
+#        global water
+#        global water_level
 
-water_class = WaterObject(water)
+#        # TODO: Apply nonlocal. 
+#        self.state = water 
+#        if water == water(2):
+#            print("The bowl is overflowing with water \n
+#                    and cannot contain more water.")
+
+#water_class = WaterObject()
 
 
 ### Functions
@@ -171,10 +176,10 @@ def addwater():
     global water
     global water_level
 
-    for water in iter(water): # make it a while loop and make it work.
-        if water_level == 0 and water == 0:
+    for water in iter(water): # TODO: make it a while loop and make it work.
+        if water_level == water_level(0) and water == water(0):
             print(water(2))
-        elif water_level == 1 and water == 1:
+        elif water_level == water_level(1) and water == water(1):
             print(water(0))
         else:
             print(water)
@@ -184,7 +189,7 @@ def removewater():
     global water
     global water_level
 
-    for water in iter(water):  # make it a while loop and make it work.
+    for water in iter(water):  # TODO: make it a while loop and make it work.
         if water_level == 0 and water == 0:
             print(water(1))
         elif water_level == 1 and water == 1:
@@ -201,7 +206,7 @@ def displaywater():
 user_data = input('''\"Choose a Command, entering other data unlike the choices provided results in an error.\" \n
  [A] - add water \n
  [B] - remove water \n
- [C] - display current water: ''')
+ [C] - display list of responses: ''')
 
 
 def userinput(): # Use while loop and store all choices in a dict maybe?
@@ -217,6 +222,8 @@ def userinput(): # Use while loop and store all choices in a dict maybe?
      exit()
     else:
      print("No such command")
+
+# while True: TODO: Finish for persistence.
 
 userinput()
 

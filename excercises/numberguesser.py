@@ -1,3 +1,4 @@
+import random
 # Code a ui for configuration and ease of access towards the functions
 
 # Code a number generator that could be configured by the user by a ui;

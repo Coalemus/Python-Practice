@@ -1,11 +1,17 @@
-Python 3.8.6 (Stable)
+Python 3.8.6 (Stable) (in-use)
+
+*File handling Libraries
+
+py2exe - done
 
 
-*Basic Libraries
+*Input Libraries
 
 pyautogui - done
 pynput - done
 
+
+*Data science Libraries
 
 scipy - done
     scikit - done
@@ -15,25 +21,30 @@ scipy - done
     numpy - done
     scrapy - done (need specific Twisted wheel ver. downloaded,
                     {https://www.lfd.uci.edu/~gohlke/pythonlibs/#twisted})
+    threadpoolctl - done
+    xgboost - done
+    google - done
+    wikipedia - done
+    gensim - done
 
-threadpoolctl - done
+*Natural language processing libraries
 
-google - done
-wikipedia - done
-xgboost - done
+nltk - done
 
 
-
-*Discord libraries
+*API libraries
 
 Discord.py - done
-discord.py[voice] - done
-
-*Web scraping libraries
-
+    discord.py[voice] - done
 tweepy - done
+
+
+*Web libraries
+
+Django - done
 beautifulsoup4 - done
 googleimagedownloader - done
+
 
 *media player libraries
 
@@ -48,9 +59,7 @@ ChatterBot - done (ver. 1.0.4, not latest)
 ChatterBot_corpus - done 
 sqlalchemy - done (ver. 1.2 is compatible for ChatterBot 1.0.4, not latest)
 
-Natural language processing libraries
 
-nltk - done
 
 
 Python 3.9 (latest)
