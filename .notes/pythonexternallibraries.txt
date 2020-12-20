@@ -44,6 +44,7 @@ tweepy - done
 Django - done
 beautifulsoup4 - done
 googleimagedownloader - done
+speedtest-cli - done
 
 
 *media player libraries
