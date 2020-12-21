@@ -120,7 +120,6 @@ water_level = {"The bowl is full of water":"0", # waterlevel(0)
 #        global water
 #        global water_level
 
-#        # TODO: apply nonlocal.
 #        self.capacity = water_level
 
     # def __iter__(self):
@@ -142,11 +141,9 @@ water_level = {"The bowl is full of water":"0", # waterlevel(0)
 #   def __init__(self, location):
 #       global water
 #       global water_level
-#       # TODO: Apply nonlocal.
 
 #       self.location = water
         
-
 #    def __iter__(self):
 #        global water
 #        global water_level
@@ -160,14 +157,23 @@ water_level = {"The bowl is full of water":"0", # waterlevel(0)
 #    def overflow(self, state):
 #        global water
 #        global water_level
-
-#        # TODO: Apply nonlocal. 
+ 
 #        self.state = water 
 #        if water == water(2):
 #            print("The bowl is overflowing with water \n
 #                    and cannot contain more water.")
 
 #water_class = WaterObject()
+
+# TODO: make subclass for interaction of the WaterObject and BowlObject.
+
+class Interaction:
+    def __init__(self, ):
+
+
+
+
+
 
 
 ### Functions
@@ -176,30 +182,19 @@ def addwater():
     global water
     global water_level
 
-    for water in iter(water): # TODO: make it a while loop and make it work.
-        if water_level == water_level(0) and water == water(0):
-            print(water(2))
-        elif water_level == water_level(1) and water == water(1):
-            print(water(0))
-        else:
-            print(water)
+    
                
 
 def removewater():
     global water
     global water_level
 
-    for water in iter(water):  # TODO: make it a while loop and make it work.
-        if water_level == 0 and water == 0:
-            print(water(1))
-        elif water_level == 1 and water == 1:
-            print(water(3))
-        else:
-            print(water)
+    
 
 def displaywater():
     global water
     global water_level
+    
     print(water)
 
 
@@ -223,8 +218,8 @@ def userinput(): # Use while loop and store all choices in a dict maybe?
     else:
      print("No such command")
 
-# while True: TODO: Finish for persistence.
+while True: # TODO: Finish for persistence.
 
-userinput()
+    userinput()
 
 # end of code.
