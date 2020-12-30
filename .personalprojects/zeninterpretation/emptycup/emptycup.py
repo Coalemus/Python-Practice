@@ -182,7 +182,7 @@ def addwater():
     global water
     global water_level
 
-    
+    # TODO: add a end="" for it to print in a single line.
 
     
                
@@ -191,7 +191,7 @@ def removewater():
     global water
     global water_level
 
-    
+    # TODO: add a end="" for it to print in a single line.
 
 def displaywater():
     global water
