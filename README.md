@@ -7,6 +7,8 @@ Workspace for all python projects from different libraries.
 
 # Style Guide
 
+Just because you can, doesn't mean that you should.
+
 ## Strictly follow this formatting.
 
 > Use Doublequotes `""` first, use singlequotes  `''` inside of it.
