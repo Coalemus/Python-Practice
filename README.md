@@ -7,6 +7,10 @@ Workspace for all python projects from different libraries.
 
 # Naming conventions
 
+Strictly follow this formatting.
+
+> Use Doublequotes `""` first, use singlequotes  `''` inside of it.
+
 > Use `tabs` for Spacing.
 
 ```
