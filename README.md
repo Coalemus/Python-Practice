@@ -7,6 +7,8 @@ Workspace for all python projects from different libraries.
 
 # Naming conventions
 
+> Use `tabs` for Spacing.
+
 ```
 variables = variable_name
 ```
