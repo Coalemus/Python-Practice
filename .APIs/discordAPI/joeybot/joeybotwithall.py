@@ -41,6 +41,33 @@ async def clear_error(ctx, error):
         await ctx.send('Sorry you are not allowed to use this command.')
 
 @client.command()
+async def dm(ctx, user_id=None, *, args=None):
+    if user_id != None and args != None:
+        try:
+            target = await client.fetch_user(user_id)
+            await target.send(args)
+
+            await ctx.channel.send("'" + args + "' sent to: " + target.name)
+
+        except:
+            await ctx.channel.send("Couldn't dm the given user.")
+
+@client.command()
+async def dm_all(ctx, *, args=None):
+    if args != None:
+        members = ctx.guild.members
+        for member in members:
+            try:
+                await member.send(args)
+                print("'" + args + "' sent to: " + member.name)
+
+            except:
+                print("Couldn't send '" + args + "' to: " + member.name)
+
+    else:
+        await ctx.channel.send("A message was not provided.")
+
+@client.command()
 async def kick(ctx, member : discord.Member, *, reason=None): 
     await member.kick(reason=reason)
 
