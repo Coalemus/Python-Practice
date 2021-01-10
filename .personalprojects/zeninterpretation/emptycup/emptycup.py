@@ -171,11 +171,6 @@ class Interaction:
     def __init__(self, ):
 
 
-
-
-
-
-
 ### Functions
 
 def addwater():
