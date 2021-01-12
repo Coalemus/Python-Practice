@@ -1,10 +1,20 @@
 import random
-# Code a ui for configuration and ease of access towards the functions
 
-# Code a number generator that could be configured by the user by a ui;
+secretnumber = random.randint(1,20)
+print("I am thinking of a numer between 1 and 20")
 
-# Code a program that makes the user guess a number from n to n;
+for guessestaken in range(1,7):
+    print("Take a guess.")
+    guess = int(input())
 
-# code the functions needed for the program
+    if guess < secretnumber:
+        print("Your guess is too low.")
+    elif guess > secretnumber:
+        print("Your guess is too high.")
+    else:
+        break
 
-# Dunno yet
+    if guess == secretnumber:
+        print("Good job! You guessed my number in " + str(guessestaken) + " guesses!")
+    else:
+        print("Nope. The numer I was thinking of was " + str(secretnumber))
