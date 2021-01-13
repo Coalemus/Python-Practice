@@ -97,13 +97,11 @@ water_level = {"The bowl is full of water": "0",  # waterlevel(0)
 
 class BowlObject:
     def __init__(self, capacity):
-        global water
-        global water_level
+
         self.capacity = water_level
 
     def __iter__(self):
-        global water
-        global water_level
+ 
         for water in iter(water_level):
             if water == (1) and water_level == (1):
                 print("full")
@@ -113,25 +111,16 @@ class BowlObject:
                 break
 
     def addwater():
-        global water
-        global water_level
-
         pass
 
     # TODO: add a end="" for it to print in a single line.
 
     def removewater():
-        global water
-        global water_level
-
         pass
 
     # TODO: add a end="" for it to print in a single line.
 
     def displaywater():
-        global water
-        global water_level
-
         print(water, end='')
 
 
@@ -140,25 +129,18 @@ bowl_class = BowlObject(water_level)
 
 class WaterObject:
    def __init__(self):
-       global water
-       global water_level
+
 
        pass
 
-    ##def __iter__(self): 
-        ##global water
-        ##global water_level
-
-        ##pass
+    def __iter__(self): 
+        pass
         
-    #def overflow(self, state):
-        #global water
-        #global water_level
-
-        #self.state = water 
-        #if water == water(2):
-            #print("The bowl is overflowing with water \n
-                    #and cannot contain more water.")
+    def overflow(self, state):
+        self.state = water 
+        if water == water(2):
+            print("The bowl is overflowing with water \n
+                    and cannot contain more water.")
 
 
 water_class = WaterObject()
