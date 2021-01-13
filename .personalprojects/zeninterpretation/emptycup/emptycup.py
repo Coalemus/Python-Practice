@@ -109,7 +109,7 @@ class BowlObject:
                 print("Empty")
             else:
                 break
-
+'''
     def addwater():
         pass
 
@@ -122,7 +122,7 @@ class BowlObject:
 
     def displaywater():
         print(water, end='')
-
+'''
 
 bowl_class = BowlObject(water_level)
 
@@ -133,14 +133,7 @@ class WaterObject:
 
        pass
 
-    def __iter__(self): 
-        pass
         
-    def overflow(self, state):
-        self.state = water 
-        if water == water(2):
-            print("The bowl is overflowing with water \n
-                    and cannot contain more water.")
 
 
 water_class = WaterObject()
@@ -158,7 +151,7 @@ user_data = str(input('''\"Choose a Command, entering other data unlike the choi
  [B] - remove water \n
  [C] - display list of responses: '''))
 
-
+'''
 def userinput(): # Use while loop and store all choices in a dict maybe?
     
     if user_data == 'A':
@@ -183,3 +176,4 @@ while True: # TODO: Finish for persistence.
 
 
 # end of code.
+'''
