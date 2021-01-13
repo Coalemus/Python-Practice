@@ -1,8 +1,5 @@
 """ To get something, one must first have an empty bowl """
 
-# TODO: Define a superclass for both BowlObject and WaterObject.
-# mandatory, Classes need to be defined more clearly
-
 
 # TODO: make the classes interact with each other through class
 # TODO:  methods called by the user.
@@ -83,21 +80,28 @@
 
 # Variables
 
-water = {"Water is in bowl": "0",  # water(0)
-            "Water is not in bowl": "1",  # water(1)
-            "Water cannot be added into the bowl": "2",  # water(2)
-            "The bowl is already empty": "3"}  # water(3)
 
 
-water_level = {"The bowl is full of water": "0",  # waterlevel(0)
-                "The bowl is empty": "1"}  # waterlevel(1)
+# Classes
 
-# Objects
+class Interaction:
+    
+
+    def __init__(self, ):
+        pass
+
+    def water_level(self):
+        pass
+
+    def water(self):
+        pass
 
 
-class BowlObject:
+class BowlObject(Interaction):
+
+
     def __init__(self, capacity):
-
+        super().__init__
         self.capacity = water_level
 
     def __iter__(self):
@@ -109,26 +113,28 @@ class BowlObject:
                 print("Empty")
             else:
                 break
-'''
-    def addwater():
-        pass
 
-    # TODO: add a end="" for it to print in a single line.
+    def addwater():
+        return
+
+    
 
     def removewater():
-        pass
+        return
 
-    # TODO: add a end="" for it to print in a single line.
+    
 
     def displaywater():
-        print(water, end='')
-'''
+        return
+
 
 bowl_class = BowlObject(water_level)
 
 
-class WaterObject:
-   def __init__(self):
+class WaterObject(Interaction):
+
+
+    def __init__(self):
 
 
        pass
@@ -139,33 +145,26 @@ class WaterObject:
 water_class = WaterObject()
 
 
-# TODO: make subclass for interaction of the WaterObject and BowlObject.
-
-class Interaction:
-    def __init__(self, ):
-        pass
-
-
 user_data = str(input('''\"Choose a Command, entering other data unlike the choices provided results in an error.\" \n
  [A] - add water \n
  [B] - remove water \n
  [C] - display list of responses: '''))
 
-'''
+
 def userinput(): # Use while loop and store all choices in a dict maybe?
     
     if user_data == 'A':
-     bowl_class.addwater()
+     
     elif user_data == 'B':
-     bowl_class.removewater()
+     
     elif user_data == 'C':
-     bowl_class.displaywater()
+    
     elif user_data == 'D':
      exit()
     else:
      print("No such command")
 
-while True: # TODO: Finish for persistence.
+while True:
 
     try:
         interaction = userinput()
@@ -176,4 +175,3 @@ while True: # TODO: Finish for persistence.
 
 
 # end of code.
-'''
