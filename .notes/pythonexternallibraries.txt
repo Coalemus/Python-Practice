@@ -13,6 +13,8 @@ pynput - done
 
 *Data science Libraries
 
+tensorflow - done
+tflearn - done
 scipy - done
     scikit - done
     matplotlib - done
@@ -45,7 +47,7 @@ Django - done
 beautifulsoup4 - done
 googleimagedownloader - done
 speedtest-clif - done
-
+flask - done
 
 *media player libraries
 
