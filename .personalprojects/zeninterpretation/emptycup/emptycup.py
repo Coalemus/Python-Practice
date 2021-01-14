@@ -64,6 +64,8 @@
 # functions doesn't work.
 
 
+## TODO: Add boolean in or not in for list method of data handling.
+
 # TODO: Contemplate whether to use an empty list as the result and
 # TODO:  to modify the functions towards appending what string appears.
 # TODO:  And maybe even a text file for dialogue.
