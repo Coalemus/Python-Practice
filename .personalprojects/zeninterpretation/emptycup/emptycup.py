@@ -13,7 +13,7 @@
 
 
 # TODO: Utilize function parameter *args.
-# TO do with other todos.
+# TO do with relative issues.
 
 
 # TODO: Apply Dunder method to the classes.
@@ -35,7 +35,7 @@
 
 # TODO: Use Getter and setter property method decorators, also just
 # TODO:  property in general for the ClassObjects.
-# To do in tandem with other todos.
+# To do with other relative issues.
 
 
 # TODO: make the state of the variables/classes "water" and "bowl"
@@ -45,7 +45,7 @@
 
 # TODO: Use regex for defining the functions of adding or removing
 # TODO:  water.
-# To be done in with other todos.
+# To do with other relative issues.
 
 
 # TODO: maybe tinker with the global variables inside of the functions
@@ -62,6 +62,10 @@
 # TODO: Use a text file for The dialogue.
 # Reminder, slightly mandatory if the alternative of using async
 # functions doesn't work.
+
+
+## TODO: Use list referencing.
+# To do with other relative issues.
 
 
 ## TODO: Add boolean in or not in for list method of data handling.
@@ -104,14 +108,14 @@ class BowlObject(Interaction):
 
     def __init__(self, capacity):
         super().__init__
-        self.capacity = water_level
+        self.capacity = Interaction.water_level
 
     def __iter__(self):
  
-        for water in iter(water_level):
-            if water == (1) and water_level == (1):
+        for water in iter(Interaction.water_level):
+            if water == (1) and Interaction.water_level == (1):
                 print("full")
-            elif water == (0) and water_level == (0):
+            elif water == (0) and Interaction.water_level == (0):
                 print("Empty")
             else:
                 break
@@ -130,15 +134,13 @@ class BowlObject(Interaction):
         return
 
 
-bowl_class = BowlObject(water_level)
+bowl_class = BowlObject(Interaction.water_level)
 
 
 class WaterObject(Interaction):
 
 
     def __init__(self):
-
-
        pass
 
         
@@ -156,11 +158,11 @@ user_data = str(input('''\"Choose a Command, entering other data unlike the choi
 def userinput(): # Use while loop and store all choices in a dict maybe?
     
     if user_data == 'A':
-     
+        pass
     elif user_data == 'B':
-     
+        pass
     elif user_data == 'C':
-    
+        pass
     elif user_data == 'D':
      exit()
     else:
@@ -169,8 +171,8 @@ def userinput(): # Use while loop and store all choices in a dict maybe?
 while True:
 
     try:
-        interaction = userinput()
-        print(interaction)
+        conversation = userinput()
+        print(conversation)
 
     except(KeyboardInterrupt, EOFError, SystemExit):
             break
