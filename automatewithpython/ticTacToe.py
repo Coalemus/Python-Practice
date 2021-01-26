@@ -18,7 +18,7 @@ for i in range(9):
     theBoard[move] = turn
     if turn == 'X':
         turn = 'O'
-    else:s
+    else:
         turn = 'X'
 
 printBoard(theBoard)     
