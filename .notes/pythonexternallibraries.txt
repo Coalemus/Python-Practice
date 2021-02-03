@@ -32,6 +32,10 @@ scipy - done
 *Natural language processing libraries
 
 nltk - done
+ChatterBot - done (ver. 1.0.4, not latest)
+ChatterBot_corpus - done 
+sqlalchemy - done (ver. 1.2 is compatible for ChatterBot 1.0.4, not latest)
+spacy - done
 
 
 *API libraries
@@ -54,14 +58,6 @@ flask - done
 ffmpeg -done
 youtube-dl -done
 spotdl - done
-
-
-*chatbot libraries
-
-ChatterBot - done (ver. 1.0.4, not latest)
-ChatterBot_corpus - done 
-sqlalchemy - done (ver. 1.2 is compatible for ChatterBot 1.0.4, not latest)
-
 
 
 
