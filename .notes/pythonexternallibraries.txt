@@ -35,7 +35,7 @@ nltk - done
 ChatterBot - done (ver. 1.0.4, not latest)
 ChatterBot_corpus - done 
 sqlalchemy - done (ver. 1.2 is compatible for ChatterBot 1.0.4, not latest)
-spacy - done
+spacy - done (downloaded english model)
 
 
 *API libraries
