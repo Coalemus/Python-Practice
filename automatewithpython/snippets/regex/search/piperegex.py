@@ -12,6 +12,6 @@ print(mtob2.group())
 
 batregex = re.compile(r'Bat(man|mobile|copter|bat)')
 
-mtob3 = batregex.search('Batmobile ost a wheel')
+mtob3 = batregex.search('Batmobile lost a wheel')
 
 print(mtob3.group())
