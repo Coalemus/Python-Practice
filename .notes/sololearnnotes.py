@@ -91,8 +91,11 @@ print(x + "!")
 # The only characters that are allowed are letters, numbers, and underscores. Also, they can't start with numbers.
 
 this_is_a_normal_name = 7
+'''
 
 123abc = 7
+
+'''
 SyntaxError: invalid syntax # Not following these rules result in errors.
 
 ## del statements (del)
