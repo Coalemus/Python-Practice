@@ -90,68 +90,33 @@
 
 # Classes
 
-class Interaction:
+class Bowl:
     
 
     def __init__(self, ):
         pass
 
-    def water_level(self):
+    def pour(self):
+
         pass
 
-    def water(self):
+    def empty(self):
         pass
 
 
-class BowlObject(Interaction):
+class BowlObject(Bowl):
+
+    pass
 
 
-    def __init__(self, capacity):
-        super().__init__
-        self.capacity = Interaction.water_level
+class WaterObject(Bowl):
 
-    def __iter__(self):
- 
-        for water in iter(Interaction.water_level):
-            if water == (1) and Interaction.water_level == (1):
-                print("full")
-            elif water == (0) and Interaction.water_level == (0):
-                print("Empty")
-            else:
-                break
-
-    def addwater():
-        return
-
-    
-
-    def removewater():
-        return
-
-    
-
-    def displaywater():
-        return
-
-
-bowl_class = BowlObject(Interaction.water_level)
-
-
-class WaterObject(Interaction):
-
-
-    def __init__(self):
-       pass
-
-        
-
-
-water_class = WaterObject()
+    pass
 
 
 user_data = str(input('''\"Choose a Command, entering other data unlike the choices provided results in an error.\" \n
- [A] - add water \n
- [B] - remove water \n
+ [A] - pour water \n
+ [B] - empty water \n
  [C] - display list of responses: '''))
 
 
@@ -167,7 +132,7 @@ def userinput(): # Use while loop and store all choices in a dict maybe?
      exit()
     else:
      print("No such command")
-
+'''
 while True:
 
     try:
@@ -176,6 +141,6 @@ while True:
 
     except(KeyboardInterrupt, EOFError, SystemExit):
             break
-
+'''
 
 # end of code.
