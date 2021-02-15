@@ -49,6 +49,7 @@ tweepy - done
 
 Django - done
 beautifulsoup4 - done
+b4 - done
 googleimagedownloader - done
 speedtest-clif - done
 flask - done
