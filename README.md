@@ -1,4 +1,4 @@
-# Python Projects
+# Python Practice
 
 Workspace for all python projects from different libraries.
 
