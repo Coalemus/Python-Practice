@@ -42,3 +42,17 @@ keyword argument to print()
 if you don’t want a newline printed automatically after each print()
 call.
 '''
+
+grid = [['.', '.', '.', '.', '.', '.'],
+        ['.', 'O', 'O', '.', '.', '.'],
+        ['O', 'O', 'O', 'O', '.', '.'],
+        ['O', 'O', 'O', 'O', 'O', '.'],
+        ['.', 'O', 'O', 'O', 'O', 'O'],
+        ['O', 'O', 'O', 'O', 'O', '.'],
+        ['O', 'O', 'O', 'O', '.', '.'],
+        ['.', 'O', 'O', '.', '.', '.'],
+        ['.', '.', '.', '.', '.', '.']]
+
+# TODO: make algorithm for printing the shape.
+
+# TODO: make algorithm for printing the shape in the right angle.

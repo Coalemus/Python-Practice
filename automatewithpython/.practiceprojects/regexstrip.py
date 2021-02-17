@@ -7,3 +7,10 @@ then whitespace characters will be removed from the beginning and end of the str
 Otherwise, the characters specified in the second argument to the function will be removed
 from the string.
 '''
+
+import re
+
+# TODO: Complete algorithm.
+
+stripregex = re.compile(r'(w)')
+mtob1 = stripregex.search("")

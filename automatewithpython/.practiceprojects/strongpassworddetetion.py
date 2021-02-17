@@ -6,3 +6,10 @@ A strong password is defined as one that is at least eight characters long,
 contains both uppercase and lowercase characters, and has at least one digit.
 You may need to test the string against multiple regex patterns to validate its strength.
 '''
+
+import re
+
+# TODO: Complete algorithm.
+
+passregex = re.compile(r'')
+mtob1 = passregex.search("")

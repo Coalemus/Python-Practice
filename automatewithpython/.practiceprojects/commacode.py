@@ -13,3 +13,11 @@ list to function would return "apples, bananas, tofu, and cats".
 But your function should be able to work with any list value passed
 to it.
 '''
+
+lstwtrds = ['one', 'two', 'three']
+
+for word in lstwtrds:
+    print(word, end=', ')
+    # TODO: make algorithm for last word.
+
+    
