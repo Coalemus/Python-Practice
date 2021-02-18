@@ -1,3 +1,4 @@
+#! python3
 import pyautogui, time
 
 time.sleep(1) # Lowered because of lower text filesize.

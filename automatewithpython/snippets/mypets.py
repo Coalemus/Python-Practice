@@ -1,3 +1,4 @@
+#! python3
 mypets = ["Susie", "Oreo", "Po"]
 print("Enter a pet name: ")
 name = input()

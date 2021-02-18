@@ -1,3 +1,4 @@
+#! python3
 def printpicnic(itemsdict, leftwidth, rightwidth):
     print('picnic items'.center(leftwidth + rightwidth, '-'))
 

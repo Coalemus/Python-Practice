@@ -1,3 +1,4 @@
+#! python3
 import random
 
 messages = ["It is certain",

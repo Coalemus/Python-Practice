@@ -1,3 +1,4 @@
+#! python3
 import random
 
 secretnumber = random.randint(1,20)

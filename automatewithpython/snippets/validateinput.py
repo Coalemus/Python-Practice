@@ -1,3 +1,4 @@
+#! python3
 while True:
     print("Enter your age: ")
     age = input()

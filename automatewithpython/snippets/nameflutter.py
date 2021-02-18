@@ -1,3 +1,4 @@
+#! python3
 name = str(input("what is your name: "))
 
 def process(name):

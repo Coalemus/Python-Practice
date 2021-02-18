@@ -1,3 +1,4 @@
+#! python3
 '''
 It logs keys depending on the set count BUT
 it doesn't store them to the text file for some reason. Idunno.

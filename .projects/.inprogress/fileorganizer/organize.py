@@ -1,3 +1,4 @@
+#! python3
 from pathlib import Path
 from sys import argv
 from shutil import move

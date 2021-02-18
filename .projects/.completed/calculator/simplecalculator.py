@@ -1,3 +1,5 @@
+#! python3
+
 # Program make a simple calculator
 
 # This function adds two numbers
