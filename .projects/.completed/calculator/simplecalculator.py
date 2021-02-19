@@ -45,6 +45,9 @@ while True:
 
         elif choice == '4':
             print(num1, "/", num2, "=", divide(num1, num2))
-        break
+        # break
+        # Add break if you only want to execute code once, left it off
+        # because it auto terminates when initiated in the Terminal.
     else:
         print("Invalid Input")
+
