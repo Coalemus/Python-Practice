@@ -14,8 +14,6 @@ def press(key): # Left these as Comments because it prints <255> continuously.
     global keys, count
     keys.append(key)
     #count += 1
-    if key == '<255>':
-        print(None)
     print(key)
     save(keys)
     #if count >= 10:
