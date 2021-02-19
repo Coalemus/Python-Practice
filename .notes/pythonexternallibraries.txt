@@ -43,7 +43,7 @@ spacy - done (downloaded english model)
 Discord.py - done
     discord.py[voice] - done
 tweepy - done
-
+gkeepapi - done
 
 *Web libraries
 
