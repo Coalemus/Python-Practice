@@ -2,9 +2,6 @@
 
 Workspace for all python projects from different libraries.
 
-> NOTE: Run a project in a new window with only it's specific directory opened
->         for the temp files that it makes clutter the General workspace.
-
 # Style Guide
 
 Just because you can, doesn't mean that you should.
