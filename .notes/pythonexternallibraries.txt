@@ -16,6 +16,8 @@ pynput - done
 tensorflow - done
 tflearn - done
 keras - done
+transformers - done
+torch - done
 scipy - done
     scikit - done
     matplotlib - done
