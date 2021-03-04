@@ -9,6 +9,7 @@ py2exe - done
 
 pyautogui - done
 pynput - done
+asyncio - done
 
 
 *Data science Libraries
