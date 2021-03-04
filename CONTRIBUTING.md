@@ -1,4 +1,3 @@
-
 # Style Guide
 
 Just because you can, doesn't mean that you should.
