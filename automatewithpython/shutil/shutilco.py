@@ -1,3 +1,5 @@
+# Code will copy a single file.
+
 import shutil, os
 
 os.chdir("C:\\")
