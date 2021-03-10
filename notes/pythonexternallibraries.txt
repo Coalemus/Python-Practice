@@ -48,6 +48,7 @@ Discord.py - done
     discord.py[voice] - done
 tweepy - done
 gkeepapi - done
+praw - done
 
 *Web libraries
 
