@@ -29,8 +29,6 @@ scipy - done
                     {https://www.lfd.uci.edu/~gohlke/pythonlibs/#twisted})
     threadpoolctl - done
     xgboost - done
-    google - done
-    wikipedia - done
     gensim - done
 
 *Natural language processing libraries
@@ -49,6 +47,9 @@ Discord.py - done
 tweepy - done
 gkeepapi - done
 praw - done
+wolframalpha - done
+google - done
+wikipedia - done
 
 *Web libraries
 
