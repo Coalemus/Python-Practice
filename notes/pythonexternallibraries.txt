@@ -3,6 +3,7 @@ Python 3.8.6 (Stable) (in-use)
 *File handling Libraries
 
 py2exe - done
+python-docx - done
 
 
 *Input Libraries
@@ -10,6 +11,7 @@ py2exe - done
 pyautogui - done
 pynput - done
 asyncio - done
+speechrecognition - done
 
 
 *Data science Libraries
@@ -23,13 +25,15 @@ scipy - done
     scikit - done
     matplotlib - done
         seaborn - done
+
     pandas - done
     numpy - done
     scrapy - done (need specific Twisted wheel ver. downloaded,
                     {https://www.lfd.uci.edu/~gohlke/pythonlibs/#twisted})
-    threadpoolctl - done
-    xgboost - done
-    gensim - done
+threadpoolctl - done
+xgboost - done
+gensim - done
+
 
 *Natural language processing libraries
 
@@ -50,6 +54,7 @@ praw - done
 wolframalpha - done
 google - done
 wikipedia - done
+gTTS - done
 
 *Web libraries
 
@@ -59,12 +64,15 @@ b4 - done
 googleimagedownloader - done
 speedtest-clif - done
 flask - done
+iexfinance - 
 
 *media player libraries
 
 ffmpeg -done
 youtube-dl -done
 spotdl - done
+playsound - done
+pyaudio - done (need specific Twisted wheel ver. downloaded, {https://www.lfd.uci.edu/~gohlke/pythonlibs})
 
 
 
