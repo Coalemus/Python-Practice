@@ -59,12 +59,12 @@ gTTS - done
 *Web libraries
 
 Django - done
-beautifulsoup4 - done
+beautifulsoup4 - dones
 b4 - done
 googleimagedownloader - done
 speedtest-clif - done
 flask - done
-iexfinance - 
+iexfinance - done
 
 *media player libraries
 
