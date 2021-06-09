@@ -73,17 +73,3 @@ youtube-dl -done
 spotdl - done
 playsound - done
 pyaudio - done (need specific Twisted wheel ver. downloaded, {https://www.lfd.uci.edu/~gohlke/pythonlibs})
-
-
-
-Python 3.9 (latest)
-
-pyautogui - unavailable
-pynput - unavailable
-matplotlib - unavailable
-pandas - unavailable
-numpy 
-speedtest 
-scrapy - unavailable
-
-Discord.py - unavailable
