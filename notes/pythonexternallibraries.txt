@@ -5,6 +5,7 @@ Python 3.8.6 (Stable) (in-use)
 py2exe - done
 python-docx - done
 Boost - done
+conan - done
 
 
 *Input Libraries
